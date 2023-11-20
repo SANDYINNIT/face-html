@@ -1,0 +1,153 @@
+/* * { border: 0.1em solid black; } */
+* { box-sizing:border-box; }
+
+/* Just line for the outside of the head */
+
+.line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 350px;
+    width: 350px;
+    border: 0.1em black solid;
+}
+
+.centrat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 130px;
+    width: 130px;
+    background-color: #b4846d;
+  }
+
+/* css for hair */
+
+.hairb {
+    position: relative;
+    height: 55px;
+}
+
+.hair {
+    position: relative;
+    height: 35px;
+    background-color: #2b1e0d;
+}
+
+.hairsideb {
+    position: absolute;
+    height: 1em;
+    width: 7.8em;
+    top: 2em;
+}
+
+.hairsidel {
+    position: absolute;
+    height: 1.1em;
+    width: 1em;
+    background-color: #2b1e0d;
+}
+
+.hairsider {
+    position: absolute;
+    left: 7.13em;
+    height: 1.1em;
+    width: 1em;
+    background-color: #2b1e0d;
+}
+
+/* css for eyes */
+
+.eyesb {
+    position: relative;
+    height: 0.9em;
+    top: 0.5em;
+}
+
+.eyell {
+    position: absolute;
+    height: 1em;
+    width: 2em;
+    left: 1em;
+    border: 0.1px black solid;
+}
+
+.eyel {
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    right: 1em;
+    background-color: #ffffff;
+}
+
+.eyelr {
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    right: 0em;
+    background-color: #0026ff;
+}
+
+.eyerr {
+    position: absolute;
+    height: 1em;
+    width: 2em;
+    right: 1em;
+    border: 0.1px black solid;
+}
+
+.eyer {
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    left: 1em;
+    background-color: #ffffff;
+}
+
+.eyerl {
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    left: 0em;
+    background-color: #0026ff;
+}
+
+/* css for nose */
+
+.noseb {
+    position: relative;
+    top: 0.7em;
+    height: 0.8em;
+}
+
+.nosem {
+    position: absolute;
+    border: 0.1px black solid;
+    height: 1em;
+    left: 3em;
+    right: 3em;
+    background-color: #6a4030;
+}
+
+/* css for mouth */
+
+.mouthb {
+    position: relative;
+    top: 0.9em;
+    height: 0.8em;
+}
+
+.mouthm {
+    position: absolute;
+    border: 0.1px black solid;
+    height: 1em;
+    left: 3em;
+    right: 3em;
+    background-color: #8a4c3d;
+}
