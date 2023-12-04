@@ -1,4 +1,4 @@
-/* * { border: 0.1em solid black; } */
+/** { border: 0.1px solid black; } */
 * { box-sizing:border-box; }
 
 /* Just line for the outside of the head */
@@ -27,6 +27,27 @@
     background-color: #b4846d;
   }
 
+.centratborder {
+    border: 0.05em solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8em;
+    height: 130px;
+    width: 130px;
+}
+
+/* just a border to use */
+
+.borderinnit {
+    border: 0.08em solid black;
+}
+
+.borderinnit2 {
+    border: 0.05em solid black;
+}
+
 /* css for hair */
 
 .hairb {
@@ -38,28 +59,41 @@
     position: relative;
     height: 35px;
     background-color: #2b1e0d;
+    border-bottom: none;
+}
+
+.hairbottom {
+    position: absolute;
+    left: 0.8em;
+    height: 0.95em;
+    width: 6.35em;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
 }
 
 .hairsideb {
     position: absolute;
     height: 1em;
     width: 7.8em;
-    top: 2em;
+    top: 2.15em;
 }
 
 .hairsidel {
     position: absolute;
-    height: 1.1em;
+    height: 0.95em;
     width: 1em;
     background-color: #2b1e0d;
+    border-top: none;
 }
 
 .hairsider {
     position: absolute;
     left: 7.13em;
-    height: 1.1em;
+    height: 0.95em;
     width: 1em;
     background-color: #2b1e0d;
+    border-top: none;
 }
 
 /* css for eyes */
@@ -81,9 +115,10 @@
 .eyel {
     position: absolute;
     height: 1em;
-    width: 1em;
-    right: 1em;
+    width: 2em;
+    right: 0em;
     background-color: #ffffff;
+    border-right: none;
 }
 
 .eyelr {
@@ -105,9 +140,10 @@
 .eyer {
     position: absolute;
     height: 1em;
-    width: 1em;
-    left: 1em;
+    width: 2em;
+    left: 0em;
     background-color: #ffffff;
+    border-left: none;
 }
 
 .eyerl {
@@ -128,7 +164,6 @@
 
 .nosem {
     position: absolute;
-    border: 0.1px black solid;
     height: 1em;
     left: 3em;
     right: 3em;
@@ -145,9 +180,381 @@
 
 .mouthm {
     position: absolute;
-    border: 0.1px black solid;
-    height: 1em;
+    height: 0.8em;
     left: 3em;
     right: 3em;
     background-color: #8a4c3d;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
+
+/* css for beard */
+
+.beardb {
+    position: relative;
+    top: 0.9em;
+    height: 1.29em;
+}
+
+.beardm {
+    position: absolute;
+    height: 1.29em;
+    left: 2em;
+    right: 2em;
+    background-color: #41210c;
+    border-top: none;
+}
+
+.beardl {
+    position: absolute;
+    height: 0.85em;
+    width: 1em;
+    left: 2em;
+    background-color: #41210c;
+}
+.beardr {
+    position: absolute;
+    height: 0.85em;
+    width: 1em;
+    right: 2em;
+    background-color: #41210c;
+}
+
+/* BODY INNIT */
+
+.bodychest {
+    position: relative;
+    top: 0.9em;
+    height: 3em;
+    width: 3.5em;
+    left: 2.3em;
+    border: 0.05em solid black;
+    border-top: none;
+    background-color: #15beb9;
+  }
+
+.topbodyb {
+    position: relative;
+    width: 3.5em;
+    height: 10px;
+}
+
+/* So this code is basically the weird up chest thing on
+the body */
+
+.topbodym {
+    position: absolute;
+    left: 1.1em;
+    border: 0.04em solid black;
+    height: 5px;
+    width: 5px;
+    border-top: none;
+    border-right: none;
+    background-color: #e0a07a;
+    border-bottom: none;
+}
+.topbodym2 {
+    position: absolute;
+    right: 1.2em;
+    border: 0.04em solid black;
+    height: 5px;
+    width: 5px;
+    border-top: none;
+    border-left: none;
+    background-color: #e0a07a;
+}
+.topbodym3 {
+    position: absolute;
+    left: 1.1em;
+    border: 0.04em solid black;
+    height: 5px;
+    width: 1em;
+    border-top: none;
+    border-right: none;
+    background-color: #e0a07a;
+} 
+
+.topbodymbottom {
+    position: absolute;
+    border: 0.04em solid black;
+    top: 4.45px;
+    left: 1.4em;
+    width: 10px;
+    height: 5px;
+    border-top: none;
+    background-color: #e0a07a;
+}
+
+/* This code is for the bottom 2 pieces of clothing,
+dont know how to explain but its clothes basically */
+
+.bottombodypieceb {
+    position: relative;
+    top: 0.85em;
+    height: 0.89em;
+    width: 1.3em;
+    left: 4.55em;
+}
+
+.bottompiece1 {
+    position: absolute;
+    left: 3px;
+    height: 7.5px;
+    width: 0.5em;
+    background-color: #15beb9;
+    border: 0.04em solid black;
+    border-right: none;
+    border-top: none;
+}
+.bottompiece2 {
+    position: absolute;
+    left: 0.644em;
+    height: 0.82em;
+    width: 0.6em;
+    background-color: #15beb9;
+    border: 0.04em solid black;
+    border-top: none;
+}
+
+/* The body box for the heart code */
+
+@keyframes heartBeat {
+    0% {
+        scale: 1.1;
+    }
+    85% {
+        scale: 1;
+    }
+}
+
+.heart {
+    background-color: hotpink;
+    display: inline-block;
+    height: 8px;
+    position: relative;
+    left: 3.8em;
+    top: -2.4em;
+    transform: rotate(-45deg);
+    width: 8px;
+    animation: heartBeat 1s infinite linear;
+  }
+  
+  
+  .heart:before,
+  .heart:after {
+    content: "";
+    background-color: hotpink;
+    border-radius: 50%;
+    height: 8px;
+    position: absolute;
+    width: 8px;
+  }
+  
+  .heart:before {
+    top: -5px;
+    left: 0;
+  }
+  
+  .heart:after {
+    left: 5px;
+    top: 0;
+  }
+
+
+
+
+.chestinside {
+    position: absolute;
+    border: 0.06em black solid;
+    top: 0.7em;
+    width: 1.1em;
+    left: 1.18em;
+    background-color: red;
+    height: 0.9em;
+}
+
+.chestcover {
+    position: absolute;
+    top: 8.8em;
+    height: 0.95em;
+    width: 1.15em;
+    background-color: #15beb9;
+    left: 3.5em;
+    border: 0.5px black solid;
+
+    animation: coverinnit 2s ease-in-out forwards;
+    animation-delay: 6.3s;
+}
+
+/* stone */
+
+
+
+/* left arm */
+
+.leftarm {
+    position: absolute;
+    top: 8.2em; 
+    left: -0.1em; 
+    height: 2.2em; 
+    width: 1.5em; 
+    background-color: #15beb9;
+    border: 0.04em solid black;
+    transform-origin: 50% 100%;
+    transform: rotate(30deg);
+
+    animation: moveHandUp 2.1s ease forwards;
+    animation-delay: 3s;
+}
+
+.leftarmtop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1.2em; 
+    background-color: #15beb9;
+    border: 0.04em solid black;
+}
+
+.leftarmbottom {
+    position: absolute;
+    top: 1.2em;
+    left: 0;
+    right: 0;
+    height: 1.3em; 
+    background-color: #e0a07a;
+    border: 0.04em solid black;
+}
+
+/* RIGHT ARMMM */
+
+.rightarm {
+    position: absolute;
+    top: 8.3em; 
+    right: 0.9em; 
+    height: 2.2em; 
+    width: 1.5em; 
+    background-color: #15beb9;
+    border: 0.04em solid black;
+    transform-origin: 50% 100%;
+    transform: rotate(0deg);
+
+    animation: rightHandmove 2.1s ease forwards;
+    animation-delay: 5.5s;
+}
+
+.rightarmtop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1.2em; 
+    background-color: #15beb9;
+    border: 0.04em solid black;
+}
+
+.rightarmbottom {
+    position: absolute;
+    top: 1.2em;
+    left: 0;
+    right: 0;
+    height: 1.3em; 
+    background-color: #e0a07a;
+    border: 0.04em solid black;
+}
+
+.sliding-stone {
+    position: absolute;
+    width: 20px; 
+    height: 20px;
+    background-color: #8b8b8b;
+    border: 2px solid #606060;
+    animation: slideToSteve 2s ease-in-out forwards; 
+    transform-origin: center center;
+}
+
+/* keyframes for the animations innit */
+@keyframes slideToSteve {
+    0% {
+        top: -140px; 
+        left: -300%; 
+        transform: translateX(-50%) rotate(0deg); 
+    }
+    100% {
+        top: 0.2em;
+        left: 0.1em; 
+        transform: translateX(0) rotate(360deg);
+    }
+}
+
+@keyframes moveHandUp {
+    0% {
+        transform: rotate(30deg); 
+        top: 8.2em;
+        left: -0.1em;
+    }
+    50% {
+        transform: rotate(110deg); 
+        top: 6.7em;
+        left: -0.7em;
+    }
+    100% {
+        transform: rotate(30deg); 
+        top: 8.2em;
+        left: -0.1em;
+    }
+}
+
+@keyframes appearStone {
+    to {
+        visibility: visible;
+    }
+}
+
+.stone {
+    position: absolute;
+    width: 40px;
+    height: 40px; 
+    left: -2.5em;
+    background-color: #8b8b8b; 
+    border: 2px solid #606060;
+    visibility: hidden;
+    animation: appearStone 0.1s linear forwards;
+    animation-delay: 4.5s;
+}
+
+@keyframes rightHandmove {
+    0% {
+        transform: rotate(0deg);
+        top: 8.3em;
+        height: 2.2em;
+        right: 0.9em;
+    }
+    40% {
+        transform: rotate(70deg);
+        right: 3em;
+        top: 7.5em;
+    }
+    60% {
+        transform: rotate(55deg);
+        right: 2.8em;
+        top: 8.2em;
+    }
+}
+
+@keyframes coverinnit {
+    0% {
+        top: 8.8em; 
+        left: 4.1em; 
+        transform: translateX(-50%) rotate(0deg); 
+    }
+    100% {
+        top: 14em;
+        left: 3.5em; 
+        transform: translateX(0) rotate(360deg);
+    }
+}
+
+
